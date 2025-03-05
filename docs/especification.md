@@ -25,26 +25,22 @@ Para alcançar esse objetivo, alguns objetivos específicos foram definidos:
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A fragmentação das ferramentas disponíveis e os altos custos de plataformas especializadas dificultam o acesso de pequenos e médios organizadores a soluções eficientes. Eventos corporativos, acadêmicos, culturais e sociais frequentemente demandam funcionalidades específicas, como controle de inscrições, integração com métodos de pagamento e comunicação direta com os participantes. No entanto, muitas soluções existentes não oferecem a flexibilidade necessária ou cobram taxas elevadas que inviabilizam sua adoção por negócios menores. Esse cenário evidencia a necessidade de um sistema acessível, intuitivo e integrado, que otimize o gerenciamento de eventos e reduza a carga operacional dos organizadores.
 
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Além dos desafios para os organizadores, os participantes também enfrentam dificuldades, como processos de inscrição complexos, falta de informações atualizadas sobre os eventos e filas longas para credenciamento. Segundo uma pesquisa da Eventbrite, 66% dos participantes de eventos esperam um processo de check-in rápido e digital, e 72% consideram essencial receber notificações sobre atualizações e lembretes. Isso reforça a importância de desenvolver um sistema que atenda tanto às necessidades dos organizadores quanto às expectativas do público, proporcionando uma experiência mais fluida e interativa.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+A aplicação será utilizada por diferentes perfis de usuários, cada um com necessidades e níveis de familiaridade tecnológica distintos. A seguir, destacam-se os principais grupos que poderão se beneficiar da plataforma:
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+#### Organizadores de Eventos
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Esse grupo inclui desde profissionais experientes do setor até pequenos organizadores que realizam eventos de forma independente. Eles podem ser responsáveis por conferências corporativas, workshops, shows, feiras ou encontros acadêmicos. O nível de familiaridade com tecnologia varia, com alguns usuários acostumados a utilizar sistemas complexos de gestão e outros que ainda dependem de métodos manuais, como planilhas e formulários físicos. A aplicação deve, portanto, ser intuitiva e acessível, permitindo que organizadores com diferentes níveis de conhecimento consigam gerenciar seus eventos de maneira eficiente.
+
+#### Participantes 
+
+Os participantes dos eventos abrangem um público diversificado, desde estudantes e profissionais que frequentam congressos e cursos até fãs de shows e festivais. Esse grupo tem expectativas elevadas quanto à facilidade de inscrição, rapidez no check-in e acesso a informações atualizadas. Como muitos utilizam dispositivos móveis para consumir conteúdos e realizar compras, a plataforma deve priorizar uma experiência fluida e responsiva, garantindo que o processo de participação em eventos seja simples e eficiente.
+
 
 
 # Especificações do Projeto
