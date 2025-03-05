@@ -1,25 +1,13 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
-
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+Nos últimos anos, o mercado de eventos tem experimentado um crescimento expressivo, impulsionado tanto pelo avanço das tecnologias digitais quanto pela crescente demanda por experiências presenciais e híbridas.
+A ascensão de plataformas de bilhetagem e gestão de eventos como Sympla demonstra o potencial de inovação no setor, mas também revela lacunas significativas que ainda dificultam a experiência dos organizadores e participantes.
+Com a necessidade crescente de otimizar a organização e aumentar a acessibilidade dos eventos, a tecnologia desempenha um papel central na automatização de tarefas como controle de inscrições, processamento de pagamentos e interação com o público. No entanto, muitas das soluções existentes apresentam limitações, seja por custos elevados, falta de integração com outras ferramentas ou experiências fragmentadas para os usuários. Diante desse cenário, surge a oportunidade de desenvolver uma solução inovadora que una praticidade, eficiência e um modelo de negócios acessível para organizadores de eventos de diversos portes.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Organizar um evento envolve uma série de desafios que vão desde a divulgação e gestão de inscrições até o controle de acesso e a comunicação com os participantes. Muitos organizadores enfrentam dificuldades para administrar esses processos de forma eficiente, especialmente quando precisam lidar com ferramentas fragmentadas, altos custos de plataformas especializadas e a falta de integração com outros sistemas. Esses obstáculos impactam diretamente a experiência tanto dos organizadores, que precisam investir tempo e recursos extras, quanto dos participantes, que muitas vezes enfrentam dificuldades na inscrição, no pagamento ou no recebimento de informações sobre o evento.
+Além disso, o setor de eventos é dinâmico e abrange diversos segmentos, como conferências corporativas, shows, workshops e encontros acadêmicos, cada um com demandas específicas. No entanto, muitas soluções existentes não oferecem a flexibilidade necessária para atender a diferentes tipos de eventos, resultando em plataformas pouco adaptáveis às necessidades dos organizadores. Esse cenário se torna ainda mais crítico em um mundo cada vez mais digitalizado, onde o público espera experiências fluidas e automatizadas, e onde os organizadores precisam de dados precisos para otimizar suas estratégias de engajamento e monetização.
 
 ## Objetivos
 
