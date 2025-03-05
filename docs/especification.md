@@ -15,10 +15,13 @@ O objetivo geral deste projeto é desenvolver uma plataforma digital para gestã
 
 Para alcançar esse objetivo, alguns objetivos específicos foram definidos:
 
-1.Criar um sistema intuitivo para gestão de eventos, permitindo que organizadores cadastrem eventos, configurem detalhes como limite de participantes e valores de ingressos, e acompanhem inscrições em tempo real.
-2.Implementar um módulo de inscrições e controle de acesso, incluindo funcionalidades de check-in digital para facilitar a entrada dos participantes e evitar fraudes.
-3.Desenvolver um mecanismo de comunicação eficiente, possibilitando o envio de notificações por e-mail ou push para manter os participantes informados sobre atualizações e lembretes do evento.
-4.Garantir a segurança e confiabilidade dos dados, adotando boas práticas de armazenamento e autenticação para proteger informações dos organizadores e participantes.
+* Criar um sistema intuitivo para gestão de eventos, permitindo que organizadores cadastrem eventos, configurem detalhes como limite de participantes e valores de ingressos, e acompanhem inscrições em tempo real.
+
+* Implementar um módulo de inscrições e controle de acesso, incluindo funcionalidades de check-in digital para facilitar a entrada dos participantes e evitar fraudes.
+
+* Desenvolver um mecanismo de comunicação eficiente, possibilitando o envio de notificações por e-mail ou push para manter os participantes informados sobre atualizações e lembretes do evento.
+
+* Garantir a segurança e confiabilidade dos dados, adotando boas práticas de armazenamento e autenticação para proteger informações dos organizadores e participantes.
 
 ## Justificativa
 
