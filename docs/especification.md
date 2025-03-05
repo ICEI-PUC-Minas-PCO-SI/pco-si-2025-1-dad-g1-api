@@ -11,12 +11,14 @@ Além disso, o setor de eventos é dinâmico e abrange diversos segmentos, como 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste projeto é desenvolver uma plataforma digital para gestão de eventos que simplifique e automatize processos como inscrições, controle de acesso, comunicação com participantes e integração com sistemas de pagamento. A proposta visa eliminar as dificuldades enfrentadas por organizadores ao administrar eventos, oferecendo uma solução eficiente, acessível e adaptável a diferentes tipos de eventos.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Para alcançar esse objetivo, alguns objetivos específicos foram definidos:
+
+1.Criar um sistema intuitivo para gestão de eventos, permitindo que organizadores cadastrem eventos, configurem detalhes como limite de participantes e valores de ingressos, e acompanhem inscrições em tempo real.
+2.Implementar um módulo de inscrições e controle de acesso, incluindo funcionalidades de check-in digital para facilitar a entrada dos participantes e evitar fraudes.
+3.Desenvolver um mecanismo de comunicação eficiente, possibilitando o envio de notificações por e-mail ou push para manter os participantes informados sobre atualizações e lembretes do evento.
+4.Garantir a segurança e confiabilidade dos dados, adotando boas práticas de armazenamento e autenticação para proteger informações dos organizadores e participantes.
 
 ## Justificativa
 
