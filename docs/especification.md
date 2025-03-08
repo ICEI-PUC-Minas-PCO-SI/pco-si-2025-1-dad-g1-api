@@ -93,8 +93,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | 
 |------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
+|RF-001| A aplicação deve permitir cadastrar novos eventos  | ALTA |  
+|RF-002| A aplicação deve permitir editar eventos    | ALTA | 
+|RF-003| A aplicação deve permitir Categorizar os eventos    | MÉDIA | 
+|RF-004| A aplicação deve permitir Limitar a quantidade de pessoas no eventos    | MÉDIA | 
+|RF-005| deve permitir que o organizador cancele o evento    | ALTA | 
+|RF-006| deve permitir o usuário de inscrever nos eventos    | ALTA | 
+|RF-007| deve gerar o ingresso ao evento   | ALTA | 
+|RF-008| deve permitir que os usuários cancelem sua inscrição  | MÉDIA | 
+|RF-009| deve notificar o usuário sobre as atualizações do evento    | BAIXA | 
+|RF-010| deve gerar um relatório sobre o evento    | MÉDIA | 
+|RF-011| A aplicação deve permitir o cadastro do usuário    | ALTA | 
+|RF-012| deve permitir a recuperação de senha    | MÉDIA | 
 
 
 ### Requisitos não Funcionais
