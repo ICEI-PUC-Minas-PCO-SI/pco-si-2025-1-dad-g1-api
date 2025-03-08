@@ -65,19 +65,20 @@ João tem 40 anos, é gerente de marketing e trabalha em uma grande empresa de t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+| **EU COMO... `PERSONA`**                        | **QUERO/PRECISO ... `FUNCIONALIDADE`**                                                                 | **PARA ... `MOTIVO/VALOR`**                                                                                  |
+|-------------------------------------------------|-------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| **Lúcia, coordenadora de eventos**              | **Quero uma interface intuitiva para criar e gerenciar eventos**                                        | **Para facilitar a organização dos eventos e otimizar o processo de inscrição e venda de ingressos.**         |
+| **Lúcia, coordenadora de eventos**              | **Preciso de ferramentas de pagamento integradas**                                                     | **Para processar pagamentos de ingressos de forma segura e ágil, garantindo uma experiência prática.**        |
+| **Lúcia, coordenadora de eventos**              | **Quero relatórios detalhados sobre as vendas de ingressos e participação**                             | **Para monitorar o desempenho do evento, entender a adesão do público e tomar decisões informadas.**           |
+| **Carlos, empreendedor cultural**               | **Preciso de opções de personalização de ingressos (VIP, assento marcado, etc.)**                        | **Para atender às diferentes necessidades dos participantes e maximizar a experiência do público.**           |
+| **Carlos, empreendedor cultural**               | **Quero ferramentas para divulgar eventos nas redes sociais diretamente da plataforma**                 | **Para aumentar a visibilidade dos eventos e atrair mais participantes através de canais de comunicação.**     |
+| **Carlos, empreendedor cultural**               | **Preciso de uma ferramenta para controlar a capacidade do local e o acesso dos participantes**          | **Para garantir que o evento não ultrapasse a capacidade e evitar problemas no momento da entrada.**           |
+| **Fernanda, participante de eventos**           | **Quero encontrar eventos de forma rápida e intuitiva**                                                  | **Para descobrir facilmente eventos de meu interesse sem perder tempo.**                                     |
+| **Fernanda, participante de eventos**           | **Preciso de opções de pagamento variadas (cartão, boleto, Pix, etc.)**                                  | **Para garantir que posso pagar de forma prática e segura, de acordo com minha preferência.**                |
+| **Fernanda, participante de eventos**           | **Quero receber notificações sobre alterações e atualizações dos eventos**                             | **Para estar sempre informada sobre mudanças de última hora e garantir que não perca detalhes importantes.**    |
+| **João, gerente de marketing**                  | **Preciso de ferramentas para gerar relatórios detalhados de participação e engajamento nos eventos**    | **Para avaliar o sucesso do evento e obter insights sobre o comportamento dos participantes.**                |
+| **João, gerente de marketing**                  | **Quero uma plataforma que permita personalizar a identidade visual do evento (logo, cores, etc.)**     | **Para garantir que o evento reflita a identidade corporativa da empresa e ofereça uma experiência profissional.** |
+| **João, gerente de marketing**                  | **Preciso de controle de inscrições e distribuição de materiais aos participantes**                     | **Para gerenciar de forma eficaz a quantidade de participantes e fornecer materiais relevantes durante o evento.** |
 
 ## Requisitos
 
