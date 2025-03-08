@@ -53,19 +53,13 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Lúcia tem 34 anos, é coordenadora de eventos e trabalha como freelance organizando conferências, workshops e feiras de negócios. Ela está sempre em busca de soluções que a ajudem a gerenciar inscrições, vender ingressos e divulgar seus eventos de forma prática e eficiente. Ela precisa de uma plataforma intuitiva e com ferramentas de pagamento integradas para facilitar a organização de seus eventos e otimizar a experiência dos participantes. 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Carlos tem 29 anos, é empreendedor no ramo cultural e organiza shows, peças de teatro e outras apresentações. Ele quer uma maneira simples e eficaz de vender ingressos online e promover seus eventos. Ele busca uma plataforma que ofereça opções de personalização de ingressos, como assento marcado e ingressos VIP, além de ferramentas para divulgar suas produções nas redes sociais e controlar a capacidade do local. 
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Fernanda tem 25 anos, é designer e adora participar de eventos como palestras, cursos e festivais. Ela busca uma plataforma intuitiva onde possa encontrar e se inscrever em eventos de forma rápida e fácil, com opções de pagamento variadas. Ela precisa de acesso a todas as informações necessárias sobre os eventos e espera ser notificada sobre mudanças ou atualizações para aproveitar ao máximo a experiência. 
+
+João tem 40 anos, é gerente de marketing e trabalha em uma grande empresa de tecnologia. Ele organiza eventos internos para capacitação de funcionários, além de promover workshops e seminários para parceiros comerciais. Ele busca uma plataforma que facilite a gestão de inscrições, controle de vagas e distribuição de materiais aos participantes. João precisa de uma ferramenta que integre a venda de ingressos com relatórios detalhados de participação e que seja facilmente personalizada para refletir a identidade corporativa dos eventos.
 
 ## Histórias de Usuários
 
