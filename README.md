@@ -4,7 +4,7 @@
 
 `DISCIPLINA: Desenvolvimento de Aplicações Distribuídas`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O PUCambista é uma API para facilitar o processo de eventos, permitindo voce criar o seu evento e gerenciar ele 
 
 ## Integrantes
 
