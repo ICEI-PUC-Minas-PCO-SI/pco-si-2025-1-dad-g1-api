@@ -7,9 +7,13 @@
 
 ## Tecnologias Utilizadas
 
-Existem muitas tecnologias diferentes que podem ser usadas para desenvolver APIs Web. A tecnologia certa para o seu projeto dependerá dos seus objetivos, dos seus clientes e dos recursos que a API deve fornecer.
+<!-- Existem muitas tecnologias diferentes que podem ser usadas para desenvolver APIs Web. A tecnologia certa para o seu projeto dependerá dos seus objetivos, dos seus clientes e dos recursos que a API deve fornecer. -->
 
-[Lista das tecnologias principais que serão utilizadas no projeto.]
+1. ASP.NET Web API
+ - O ASP.NET Web API sera a parte que fara a construção da camada se serviços que seram oferecidos pela aplicação.
+
+2. SQL Server
+ - O SQL Server será a base para armazenar os dados.
 
 
 ## Programação de Funcionalidades
