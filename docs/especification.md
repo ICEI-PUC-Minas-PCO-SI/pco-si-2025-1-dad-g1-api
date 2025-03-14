@@ -106,6 +106,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| O sistema deve estar disponível com um tempo de inatividade máximo de 1 hora por mês para manutenção. |  BAIXA | 
 |RNF-003| Deve ser implementado um sistema de log para registrar erros e eventos relevantes. | BAIXA |
 |RNF-004| Deve-se utilizar boas práticas de desenvolvimento | ALTA |
+|RNF-005| Todos os dados devem ser transmitidos via HTTPS. | ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
