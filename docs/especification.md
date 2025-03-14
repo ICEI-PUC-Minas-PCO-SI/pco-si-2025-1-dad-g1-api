@@ -129,8 +129,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| A primeira versão não incluirá pagamento integrado, apenas reserva de ingressos |
+|02| Não pode ser desenvolvido um módulo de frontend |
+|03| O sistema deverá estar hospedado na nuvem para garantir escalabilidade |
+|04| O sistema deverá ser desenvolvido em lingugem C# |
+|05| O banco de dados utilizado deverá ser SQL Server |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
