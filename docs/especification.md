@@ -45,11 +45,12 @@ Os participantes dos eventos abrangem um público diversificado, desde estudante
 
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto.
-
-Caso deseje atribuir uma imagem a sua persona, utilize o site https://thispersondoesnotexist.com/
+Nesta seção, será apresentada a definição detalhada do problema que o aplicativo de gestão de eventos busca solucionar, bem como a proposta de solução a partir da perspectiva do usuário. O objetivo é garantir que a ferramenta atenda às necessidades do público-alvo e ofereça uma experiência intuitiva e eficiente.
+Para isso, serão abordados os seguintes aspectos:
+Diagrama de Personas: Representações fictícias dos diferentes perfis de usuários da aplicação, baseadas em características reais do público-alvo. Isso ajudará a entender seus desafios, objetivos e expectativas ao utilizar a plataforma.
+Histórias de Usuário: Descrições de casos de uso típicos, estruturadas no formato “Como [persona], eu quero [ação] para [benefício]”, permitindo uma melhor compreensão das interações esperadas.
+Requisitos Funcionais e Não Funcionais: Definição dos principais recursos que a aplicação deve oferecer, categorizados como funcionais (ações e serviços disponíveis) e não funcionais (desempenho, segurança, usabilidade, entre outros).
+Restrições do Projeto: Limitações técnicas, orçamentárias e de escopo que devem ser consideradas no desenvolvimento da solução.
 
 ## Personas
 
