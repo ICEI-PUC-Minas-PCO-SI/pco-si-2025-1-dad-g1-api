@@ -76,8 +76,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | **Fernanda, participante de eventos**           | **Quero encontrar eventos de forma rápida e intuitiva**                                                  | **Para descobrir facilmente eventos de meu interesse sem perder tempo.**                                     |
 | **Fernanda, participante de eventos**           | **Preciso de opções de pagamento variadas (cartão, boleto, Pix, etc.)**                                  | **Para garantir que posso pagar de forma prática e segura, de acordo com minha preferência.**                |
 | **Fernanda, participante de eventos**           | **Quero receber notificações sobre alterações e atualizações dos eventos**                             | **Para estar sempre informada sobre mudanças de última hora e garantir que não perca detalhes importantes.**    |
-| **João, gerente de marketing**                  | **Preciso de ferramentas para gerar relatórios detalhados de participação e engajamento nos eventos**    | **Para avaliar o sucesso do evento e obter insights sobre o comportamento dos participantes.**                |
-| **João, gerente de marketing**                  | **Quero uma plataforma que permita personalizar a identidade visual do evento (logo, cores, etc.)**     | **Para garantir que o evento reflita a identidade corporativa da empresa e ofereça uma experiência profissional.** |
 | **João, gerente de marketing**                  | **Preciso de controle de inscrições e distribuição de materiais aos participantes**                     | **Para gerenciar de forma eficaz a quantidade de participantes e fornecer materiais relevantes durante o evento.** |
 
 ## Requisitos
