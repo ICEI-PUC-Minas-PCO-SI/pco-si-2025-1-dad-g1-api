@@ -144,9 +144,24 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 # Arquitetura da Solução
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+No projeto será utilizada uma arquitetura de software baseada em microsserviços, com os seguintes componentes:
 
-![arq](https://github.com/user-attachments/assets/b9402e05-8445-47c3-9d47-f11696e38a3d)
+Clientes: Representados por ferramentas como Postman e outras interfaces que consomem APIs, indicando que os serviços podem ser acessados por diferentes aplicações clientes.
+
+API Gateway: Implementado com Ocelot, um framework de roteamento para aplicações .NET. Ele serve como ponto central para gerenciar as requisições dos clientes, distribuindo-as para os serviços apropriados.
+
+Microsserviços: Cada um tem uma função específica e opera de forma independente, sendo acessado por meio da API Gateway. Todos os serviços são construídos com .NET e armazenam dados em SQL Server. Os serviços incluídos são:
+
+- Serviço de Gestão de Usuários: Gerencia dados de usuários.
+- Serviço de Gestão de Eventos: Administra informações sobre eventos.
+- Serviço de Inscrição de Participantes: Controla as inscrições de usuários em eventos.
+- Serviço de Check-in: Responsável pelo registro de presença nos eventos.
+- Serviço de Notificação: Lida com envio de notificações para os usuários.
+- Serviço de Lista de Espera: Gerencia filas de espera para eventos.
+
+![Arquitetura da solução](https://github.com/user-attachments/assets/08841a88-95a4-4081-8981-cb18de235c60)
+
+Cada microsserviço possui sua própria API e banco de dados, promovendo independência e escalabilidade. Essa arquitetura permite modularidade, facilidade de manutenção e escalabilidade dos serviços.
 
 ## Tecnologias Utilizadas
 
