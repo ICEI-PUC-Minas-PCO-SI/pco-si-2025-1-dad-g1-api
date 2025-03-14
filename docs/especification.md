@@ -150,9 +150,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+Para resolver o problema serão utilizadas diversas tecnologias, como linguagem de programação, será utilizado C# para desenvolvimento completo do back-end da aplicação, fazendo uso de todos os benefícios da plataforma .NET, como banco de dados, será utilizado o banco de dados relacional SQL Server, que habitualmente se comporta bem com o .NET, para construção da API Gateway, será usado o pacote Ocelot também do .NET, como IDE será utilizado o Visual Studio 2022, podendo também ser utilizado o editor de códigos VS Code, por fim, o projeto será versionado utilizando a ferramenta de controle de versionamento de códigos Git e os códigos serão hospedados no GitHub.
 
 # Planejamento do projeto
 
