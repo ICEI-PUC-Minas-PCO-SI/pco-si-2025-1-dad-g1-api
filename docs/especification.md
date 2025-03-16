@@ -104,8 +104,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| A aplicação deve ser responsiva | MÉDIA | 
 |RNF-002| O sistema deve estar disponível com um tempo de inatividade máximo de 1 hora por mês para manutenção. |  BAIXA | 
 |RNF-003| Deve ser implementado um sistema de log para registrar erros e eventos relevantes. | BAIXA |
-|RNF-004| Deve-se utilizar boas práticas de desenvolvimento | ALTA |
-|RNF-005| Todos os dados devem ser transmitidos via HTTPS. | ALTA |
 
 
 
@@ -118,8 +116,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| A primeira versão não incluirá pagamento integrado, apenas reserva de ingressos |
 |02| Não pode ser desenvolvido um módulo de frontend |
 |03| O sistema deverá estar hospedado na nuvem para garantir escalabilidade |
-|04| O sistema deverá ser desenvolvido em lingugem C# |
-|05| O banco de dados utilizado deverá ser SQL Server |
 
 # Arquitetura da Solução
 
