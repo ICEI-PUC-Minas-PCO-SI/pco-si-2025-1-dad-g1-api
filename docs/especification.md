@@ -196,8 +196,44 @@ Legenda:
 
 ## Processo
 
-Coloque informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
+Para garantir a eficiência e a organização do desenvolvimento do aplicativo de gestão de eventos, o projeto será conduzido utilizando a **metodologia ágil Scrum**. Essa abordagem permitirá maior flexibilidade na adaptação de requisitos ao longo do desenvolvimento, promovendo entregas incrementais e melhorando a colaboração entre os membros do time.
+
+### Estrutura do Scrum no Projeto
+
+O projeto seguirá as seguintes práticas do Scrum:
+
+### Product Backlog:
+- O backlog do produto será gerenciado no **GitHub Projects**, onde todas as funcionalidades e melhorias serão documentadas e priorizadas.
+- As tarefas serão organizadas em **épicos**, que representam grandes módulos do sistema, como **cadastro de eventos, gestão de participantes e pagamentos**.
+
+### Sprints:
+- O desenvolvimento será dividido em **sprints de 1 mês**, garantindo entregas constantes de novas funcionalidades.
+
+### Stand-ups:
+- Reuniões **semanais longas** (máximo de **100 minutos**) serão realizadas para que cada membro informe:
+  - O que fez na semana passada.
+  - O que pretende fazer na semana atual.
+  - Se há algum impedimento no desenvolvimento.
+
+---
+
+## Uso do GitHub para Gerenciamento do Projeto
+
+O **GitHub Projects** será utilizado para acompanhar o andamento do projeto, permitindo que todas as tarefas sejam organizadas e monitoradas de forma transparente. As principais funcionalidades do GitHub aplicadas ao Scrum incluem:
+
+### Kanban Board:
+- O quadro Kanban no GitHub será estruturado com colunas como:
+  - **Backlog**
+  - **To Do**
+  - **In Progress**
+  - **Done**
+- Isso ajudará a visualizar e gerenciar o fluxo de trabalho de forma eficiente.
+
+### Issues e Pull Requests:
+- Cada tarefa será registrada como uma **issue**, detalhando:
+  - O que precisa ser feito.
+  - Os critérios de aceitação.
+  - As dependências.
 
 ## Ferramentas
 
