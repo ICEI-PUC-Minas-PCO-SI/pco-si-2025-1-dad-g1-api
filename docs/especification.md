@@ -149,16 +149,15 @@ Para resolver o problema serão utilizadas diversas tecnologias, como linguagem 
 > Apresente a divisão de papéis entre os membros do grupo em cada Sprint. O desejável é que, em cada Sprint, o aluno assuma papéis diferentes na equipe. Siga o modelo do exemplo abaixo:
 
 ### Sprint 1
-- _Scrum master_: AlunaX
-- Protótipos: AlunoY
-- Testes: AlunoK
-- Documentação: AlunaZ
+- _Scrum master_: Derick
+- Protótipo de arquitetura: Vinicius Celio
+- Documentação: Derick, Matheus, Luan, evaldo, Vinicius Celio, Vinicius andrade
 
 ### Sprint 2
-- _Scrum master_: AlunaY
-- Desenvolvedor _front-end_: AlunoX
-- Desenvolvedor _back-end_: AlunoK
-- Testes: AlunaZ
+- _Scrum master_: Derick
+- Desenvolvedor _back-end_: derick, Matheus, Luan, evaldo, Vinicius Celio, Vinicius andrade
+- Desenvolvedor _banco-de-dados_: derick, Matheus, Luan, evaldo, Vinicius Celio, Vinicius andrade
+- Testes: derick, Matheus, Luan, evaldo, Vinicius Celio, Vinicius andrade
 
 ##  Quadro de tarefas
 
@@ -166,18 +165,18 @@ Para resolver o problema serão utilizadas diversas tecnologias, como linguagem 
 
 ### Sprint 1
 
-Atualizado em: 21/04/2024
+Atualizado em: 21/03/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Introdução | 01/02/2024     | 07/02/2024 | ✔️    | 05/02/2024      |
-| AlunaZ        | Objetivos    | 03/02/2024     | 10/02/2024 | 📝    |                 |
-| AlunoY        | Histórias de usuário  | 01/01/2024     | 07/01/2005 | ⌛     |                 |
-| AlunoK        | Personas 1  |    01/01/2024        | 12/02/2005 | ❌    |       |
+| Derick       | Introdução | 05/03/2024     | 07/03/2024 | ✔️    | 07/03/2024      |
+| Derick, Vinicius Celio, Evaldo, Luan        | Objetivos    | 07/03/2024     | 09/03/2024 | ✔️    | 09/03/2024                |
+| Vinicius Andrade, Evaldo, Luan        | Histórias de usuário  | 14/03/2024     | 14/03/2024 | ✔️     |  14/03/2024               |
+| Vinicius Andrade, Evaldo, Luan        | Personas 1  |   07/03/2024        | 14/03/2024 | ✔️    |  14/03/2024     |
 
 ### Sprint 2
 
-Atualizado em: 21/04/2024
+Atualizado em: 21/03/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
@@ -193,34 +192,20 @@ Legenda:
 - ⌛: atrasado
 - ❌: não iniciado
 
-
-> **Links úteis**:
-> - [11 passos essenciais para implantar Scrum no seu projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
-
 ## Processo
 
 Coloque informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
  
-> **Links úteis**:
-> - [Planejamento e gestão ágil de projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Como criar backlogs no GitHub](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial slack](https://slack.com/intl/en-br/)
 
 ## Ferramentas
 
 Liste todas as ferramentas que foram empregadas no projeto, justificando a escolha delas, sempre que possível.
 
-Exemplo: os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
-
 | Ambiente                            | Plataforma                         | Link de acesso                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
+| Repositório de código fonte         | GitHub                             | [http://....](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2025-1-dad-g1-api/tree/master)                            |
+| Documentos do projeto               | GitHub                             | [http://....](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2025-1-dad-g1-api/tree/master)                            |
 | Projeto de interface                | Figma                              | http://....                            |
-| Gerenciamento do projeto            | GitHub Projects                    | http://....                            |
+| Gerenciamento do projeto            | GitHub Projects                    | [http://....](https://github.com/orgs/ICEI-PUC-Minas-PCO-SI/projects/105)                            |
 | Hospedagem                          | Vercel                             | http://....                            |
  
