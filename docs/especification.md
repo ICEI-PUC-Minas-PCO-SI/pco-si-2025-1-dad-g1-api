@@ -180,10 +180,12 @@ Atualizado em: 21/03/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Página inicial   | 01/02/2024     | 07/03/2024 | ✔️    | 05/02/2024      |
-| AlunaZ        | CSS unificado    | 03/02/2024     | 10/03/2024 | 📝    |                 |
-| AlunoY        | Página de login  | 01/02/2024     | 07/03/2024 | ⌛     |                 |
-| AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
+| AlunaX        | Gestao de Usuario   | ??/03/2024     | ??/03/2024 | ❌    |    |
+| AlunaZ        | Gestao de eventos   | ??/03/2024     | ??/03/2024 | ❌    |                 |
+| AlunoY        | Inscricao de participante  | ??/03/2024     | 07/03/2024 | ❌     |                 |
+| AlunoK        | Check-in  |  ??/03/2024    | 12/03/2024 | ❌    |       |
+| AlunoK        | Notificacoes  |  ??/03/2024    | ??/03/2024 | ❌    |       |
+| AlunoK        | Lista de espera  |  ??/03/2024    | ??/03/2024 | ❌    |       |
 
 
 Legenda:
