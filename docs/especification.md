@@ -205,17 +205,17 @@ Atualizado em: 21/03/2024
 
 ### Sprint 3
 
-| Responsavel                                              | Tarefa/Requisito                                 | Iniciado em  | Prazo      | Status | Terminado em |   |   |   |   |
-|----------------------------------------------------------|--------------------------------------------------|--------------|------------|--------|--------------|---|---|---|---|
-| Derick                                                   | Definir Escopo dos teste                         | 01/05/2025   | 01/06/2025 | ❌      |              |   |   |   |   |
-| Vinicius Celiio, Evaldo, Luan                            | Configurar ambiente de teste (postman, swagger)  | 01/05/2025   | 01/06/2025 | ❌      |              |   |   |   |   |
-| Vinicius Andrade, Evaldo, Luan                           | Testes funcionais (CRUD, regras de negocio)      | 01/05/2025   | 01/06/2025 | ❌      |              |   |   |   |   |
-| Derick, Vinicius Celio                                   | Teste de seguranca (autenticacao, SQL Injection) | 01/05/2025   | 01/06/2025 | ❌      |              |   |   |   |   |
-| Matheus e Luan                                           | Teste de performance (carga, concorrencia)       | 01/05/2025   | 01/06/2025 | ❌      |              |   |   |   |   |
-| Vinicius Celiio, Evaldo, Luan                            | Automacao de testes (xUnit, CI/CD(               | 01/05/2025   | 01/06/2025 | ❌      |              |   |   |   |   |
-| Matheus e evaldo                                         | Correcao de bugs e refinamento                   | 01/05/2025   | 01/06/2025 | ❌      |              |   |   |   |   |
-| Derick, Vinicius Celio, Vinicius Andrade, Luan e Mathues | Relatorio e validacao final                      | 01/05/2025   | 01/06/2025 | ❌      |              |   |   |   |   |
-|                                                          |                                                  |              |            |        |              |   |   |   |   |
+| Responsavel                                              | Tarefa/Requisito                                 | Iniciado em  | Prazo      | Status | Terminado em |
+|----------------------------------------------------------|--------------------------------------------------|--------------|------------|--------|--------------|
+| Derick                                                   | Definir Escopo dos teste                         | 01/05/2025   | 01/06/2025 | ❌      |              |
+| Vinicius Celiio, Evaldo, Luan                            | Configurar ambiente de teste (postman, swagger)  | 01/05/2025   | 01/06/2025 | ❌      |              |
+| Vinicius Andrade, Evaldo, Luan                           | Testes funcionais (CRUD, regras de negocio)      | 01/05/2025   | 01/06/2025 | ❌      |              |
+| Derick, Vinicius Celio                                   | Teste de seguranca (autenticacao, SQL Injection) | 01/05/2025   | 01/06/2025 | ❌      |              |
+| Matheus e Luan                                           | Teste de performance (carga, concorrencia)       | 01/05/2025   | 01/06/2025 | ❌      |              |
+| Vinicius Celiio, Evaldo, Luan                            | Automacao de testes (xUnit, CI/CD(               | 01/05/2025   | 01/06/2025 | ❌      |              |
+| Matheus e evaldo                                         | Correcao de bugs e refinamento                   | 01/05/2025   | 01/06/2025 | ❌      |              |
+| Derick, Vinicius Celio, Vinicius Andrade, Luan e Mathues | Relatorio e validacao final                      | 01/05/2025   | 01/06/2025 | ❌      |              |
+
 
 
 
