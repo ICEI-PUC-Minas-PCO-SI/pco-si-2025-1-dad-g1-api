@@ -156,8 +156,24 @@ Para resolver o problema serão utilizadas diversas tecnologias, como linguagem 
 ### Sprint 2
 - _Scrum master_: Derick
 - Desenvolvedor _back-end_: derick, Matheus, Luan, evaldo, Vinicius Celio, Vinicius andrade
-- Desenvolvedor _banco-de-dados_: derick, Matheus, Luan, evaldo, Vinicius Celio, Vinicius andrade
-- Testes: derick, Matheus, Luan, evaldo, Vinicius Celio, Vinicius andrade
+- Desenvolvedor Gestao de Usuario: Vinicius Celio
+- Desenvolvedor Gestao de eventos: Vinicius Andrade
+- Desenvolvedor Inscricao de participante: Derick
+- Desenvolvedor Check-in: Evaldo
+- Desenvolvedor Notificacoes: Matheus
+- Desenvolvedor Lista de espera: Luan 
+
+### Sprint 3
+
+- _Scrum master_: Derick
+- Desenvolvedor _back-end_: derick, Matheus, Luan, evaldo, Vinicius Celio, Vinicius andrade
+- Desenvolvedor Gestao de Usuario: Vinicius Celio
+- Desenvolvedor Gestao de eventos: Vinicius Andrade
+- Desenvolvedor Inscricao de participante: Derick
+- Desenvolvedor Check-in: Evaldo
+- Desenvolvedor Notificacoes: Matheus
+- Desenvolvedor Lista de espera: Luan 
+  
 
 ##  Quadro de tarefas
 
@@ -186,6 +202,39 @@ Atualizado em: 21/03/2024
 | Evaldo        | Check-in  |  24/03/2025    | 01/06/2025 | 📝    |       |
 | Matheus        | Notificacoes  |  24/03/2025    | 01/06/2025 | 📝    |       |
 | Luan        | Lista de espera  |  24/03/2025    | 01/06/2025 | 📝    |       |
+
+### Sprint 3
+
+#### Testes Funcionais
+
+| ID  | Caso de Teste | Pré-condição | Passos | Resultado Esperado | Status |
+|-----|-------------|-------------|--------|--------------------|--------|
+| TF01 | Cadastro de Evento | Usuário autenticado | 1. Acessar tela de cadastro  
+2. Preencher dados obrigatórios  
+3. Confirmar cadastro | Evento cadastrado com sucesso | ✅ |
+| TF02 | Edição de Evento | Evento existente | 1. Acessar tela de edição  
+2. Modificar dados  
+3. Salvar alterações | Alterações refletidas no evento | ✅ |
+| TF03 | Exclusão de Evento | Evento existente | 1. Acessar tela de exclusão  
+2. Confirmar exclusão | Evento removido com sucesso | ✅ |
+| TF04 | Inscrição em Evento | Usuário autenticado | 1. Acessar evento desejado  
+2. Clicar em "Inscrever-se" | Usuário inscrito no evento | ✅ |
+| TF05 | Geração de Relatórios | Eventos cadastrados | 1. Acessar área de relatórios  
+2. Selecionar parâmetros  
+3. Gerar relatório | Relatório gerado corretamente | ✅ |
+
+---
+
+#### Testes de Segurança
+
+| ID  | Caso de Teste | Pré-condição | Passos | Resultado Esperado | Status |
+|-----|-------------|-------------|--------|--------------------|--------|
+| TS01 | SQL Injection | Campos de entrada | 1. Inserir código SQL malicioso | Bloqueio da tentativa | ✅ |
+| TS02 | Cross-Site Scripting (XSS) | Campos de entrada | 1. Inserir script malicioso | Código não executado | ✅ |
+| TS03 | Acesso não autorizado | URLs protegidas | 1. Tentar acessar página restrita sem autenticação | Acesso negado | ✅ |
+| TS04 | Força bruta na autenticação | Login do sistema | 1. Testar múltiplas senhas | Conta bloqueada após tentativas | ✅ |
+| TS05 | Exposição de dados sensíveis | Dados do usuário | 1. Verificar respostas da API  
+2. Verificar logs do sistema | Nenhum dado sensível exposto | ✅ |
 
 
 Legenda:
