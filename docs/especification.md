@@ -205,36 +205,18 @@ Atualizado em: 21/03/2024
 
 ### Sprint 3
 
-#### Testes Funcionais
+| Responsavel                                              | Tarefa/Requisito                                 | Iniciado em  | Prazo      | Status | Terminado em |   |   |   |   |
+|----------------------------------------------------------|--------------------------------------------------|--------------|------------|--------|--------------|---|---|---|---|
+| Derick                                                   | Definir Escopo dos teste                         | 01/05/2025   | 01/06/2025 | ❌      |              |   |   |   |   |
+| Vinicius Celiio, Evaldo, Luan                            | Configurar ambiente de teste (postman, swagger)  | 01/05/2025   | 01/06/2025 | ❌      |              |   |   |   |   |
+| Vinicius Andrade, Evaldo, Luan                           | Testes funcionais (CRUD, regras de negocio)      | 01/05/2025   | 01/06/2025 | ❌      |              |   |   |   |   |
+| Derick, Vinicius Celio                                   | Teste de seguranca (autenticacao, SQL Injection) | 01/05/2025   | 01/06/2025 | ❌      |              |   |   |   |   |
+| Matheus e Luan                                           | Teste de performance (carga, concorrencia)       | 01/05/2025   | 01/06/2025 | ❌      |              |   |   |   |   |
+| Vinicius Celiio, Evaldo, Luan                            | Automacao de testes (xUnit, CI/CD(               | 01/05/2025   | 01/06/2025 | ❌      |              |   |   |   |   |
+| Matheus e evaldo                                         | Correcao de bugs e refinamento                   | 01/05/2025   | 01/06/2025 | ❌      |              |   |   |   |   |
+| Derick, Vinicius Celio, Vinicius Andrade, Luan e Mathues | Relatorio e validacao final                      | 01/05/2025   | 01/06/2025 | ❌      |              |   |   |   |   |
+|                                                          |                                                  |              |            |        |              |   |   |   |   |
 
-| ID  | Caso de Teste | Pré-condição | Passos | Resultado Esperado | Status |
-|-----|-------------|-------------|--------|--------------------|--------|
-| TF01 | Cadastro de Evento | Usuário autenticado | 1. Acessar tela de cadastro  
-2. Preencher dados obrigatórios  
-3. Confirmar cadastro | Evento cadastrado com sucesso | ✅ |
-| TF02 | Edição de Evento | Evento existente | 1. Acessar tela de edição  
-2. Modificar dados  
-3. Salvar alterações | Alterações refletidas no evento | ✅ |
-| TF03 | Exclusão de Evento | Evento existente | 1. Acessar tela de exclusão  
-2. Confirmar exclusão | Evento removido com sucesso | ✅ |
-| TF04 | Inscrição em Evento | Usuário autenticado | 1. Acessar evento desejado  
-2. Clicar em "Inscrever-se" | Usuário inscrito no evento | ✅ |
-| TF05 | Geração de Relatórios | Eventos cadastrados | 1. Acessar área de relatórios  
-2. Selecionar parâmetros  
-3. Gerar relatório | Relatório gerado corretamente | ✅ |
-
----
-
-#### Testes de Segurança
-
-| ID  | Caso de Teste | Pré-condição | Passos | Resultado Esperado | Status |
-|-----|-------------|-------------|--------|--------------------|--------|
-| TS01 | SQL Injection | Campos de entrada | 1. Inserir código SQL malicioso | Bloqueio da tentativa | ✅ |
-| TS02 | Cross-Site Scripting (XSS) | Campos de entrada | 1. Inserir script malicioso | Código não executado | ✅ |
-| TS03 | Acesso não autorizado | URLs protegidas | 1. Tentar acessar página restrita sem autenticação | Acesso negado | ✅ |
-| TS04 | Força bruta na autenticação | Login do sistema | 1. Testar múltiplas senhas | Conta bloqueada após tentativas | ✅ |
-| TS05 | Exposição de dados sensíveis | Dados do usuário | 1. Verificar respostas da API  
-2. Verificar logs do sistema | Nenhum dado sensível exposto | ✅ |
 
 
 Legenda:
