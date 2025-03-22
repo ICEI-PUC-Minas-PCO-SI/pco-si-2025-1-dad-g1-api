@@ -155,7 +155,6 @@ Para resolver o problema serão utilizadas diversas tecnologias, como linguagem 
 
 ### Sprint 2
 - _Scrum master_: Derick
-- Desenvolvedor _back-end_: derick, Matheus, Luan, evaldo, Vinicius Celio, Vinicius andrade
 - Desenvolvedor Gestao de Usuario: Vinicius Celio
 - Desenvolvedor Gestao de eventos: Vinicius Andrade
 - Desenvolvedor Inscricao de participante: Derick
@@ -166,13 +165,14 @@ Para resolver o problema serão utilizadas diversas tecnologias, como linguagem 
 ### Sprint 3
 
 - _Scrum master_: Derick
-- Desenvolvedor _back-end_: derick, Matheus, Luan, evaldo, Vinicius Celio, Vinicius andrade
-- Desenvolvedor Gestao de Usuario: Vinicius Celio
-- Desenvolvedor Gestao de eventos: Vinicius Andrade
-- Desenvolvedor Inscricao de participante: Derick
-- Desenvolvedor Check-in: Evaldo
-- Desenvolvedor Notificacoes: Matheus
-- Desenvolvedor Lista de espera: Luan 
+- Definicao de escopo dos teste: Derick
+- Configurar ambiente de teste (postman, swagger):  Vinicius Celio, Evaldo, Luan
+- Testes funcionais (CRUD, regras de negocio): Vinicius Andrade, Evaldo, Luan
+- Teste de seguranca (autenticacao, SQL Injection): Derick, Vinicius Celio 
+- Teste de performance (carga, concorrencia): Matheus e Luan
+- Automacao de testes (xUnit, CI/CD(: Vinicius Celio, Evaldo, Luan
+- Correcao de bugs e refinamento :Matheus e evaldo
+- Relatorio e validacao final :Derick, Vinicius Celio, Vinicius Andrade, Luan e Mathues
   
 
 ##  Quadro de tarefas
