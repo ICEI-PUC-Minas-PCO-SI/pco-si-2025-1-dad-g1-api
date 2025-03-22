@@ -180,12 +180,12 @@ Atualizado em: 21/03/2024
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Gestao de Usuario   | ??/03/2024     | ??/03/2024 | ❌    |    |
-| AlunaZ        | Gestao de eventos   | ??/03/2024     | ??/03/2024 | ❌    |                 |
-| AlunoY        | Inscricao de participante  | ??/03/2024     | 07/03/2024 | ❌     |                 |
-| AlunoK        | Check-in  |  ??/03/2024    | 12/03/2024 | ❌    |       |
-| AlunoK        | Notificacoes  |  ??/03/2024    | ??/03/2024 | ❌    |       |
-| AlunoK        | Lista de espera  |  ??/03/2024    | ??/03/2024 | ❌    |       |
+| Vinicius Celio        | Gestao de Usuario   | 24/03/2025     | 01/06/2025 | 📝    |    |
+| Vinicius Andrade      | Gestao de eventos   | 24/03/2025     | 01/06/2025 | 📝    |                 |
+| Derick        | Inscricao de participante  | 24/03/2025     | 01/06/2025 | 📝     |                 |
+| Evaldo        | Check-in  |  24/03/2025    | 01/06/2025 | 📝    |       |
+| Matheus        | Notificacoes  |  24/03/2025    | 01/06/2025 | 📝    |       |
+| Luan        | Lista de espera  |  24/03/2025    | 01/06/2025 | 📝    |       |
 
 
 Legenda:
