@@ -1,10 +1,10 @@
-# PUCambista
+# PUConnect 
 
 `CURSO: Sistemas de informação`
 
 `DISCIPLINA: Desenvolvimento de Aplicações Distribuídas`
 
-O PUCambista é uma API para facilitar o processo de eventos, permitindo voce criar o seu evento e gerenciar ele 
+O PUConnect é uma API desenvolvida para simplificar a gestão de eventos, permitindo que usuários criem, organizem e gerenciem seus eventos de forma eficiente. Com recursos intuitivos, a plataforma facilita o controle de participantes, ingressos e interações, garantindo uma experiência completa para organizadores e público, gerando conexão entre organizadores e participantes.
 
 ## Integrantes
 
