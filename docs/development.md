@@ -2,8 +2,38 @@
 # Desenvolvimento da Aplicação
 
 ## Modelagem da Aplicação
-[Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
+A arquitetura em microsserviços permitirá que cada funcionalidade principal seja desenvolvida e implantada de forma independente. Cada serviço terá seu próprio banco de dados, garantindo o baixo acoplamento.
 
+### Estrutura de Dados e Entidades por Microsserviço
+1. RF-001: Serviço de Gestão de Usuários (Responsável: Vinicius Celio) 
+
+Entidade Principal: Usuario
+Artefato Criado: Microsserviço de Usuários
+
+2. RF-002: Serviço de Gestão de Eventos (Responsável: Vinicius Andrade) 
+
+Entidade Principal: Evento
+Artefato Criado: Microsserviço de Eventos
+
+3. RF-003: Serviço de Inscrição de Participantes (Responsável: Derick) 
+
+Entidade Principal: Inscricao
+Artefato Criado: Microsserviço de Inscrições
+
+4. RF-004: Serviço de Check-in no Evento (Responsável: Evaldo) 
+
+Entidade Principal: Checkin
+Artefato Criado: Microsserviço de Check-in
+
+5. RF-005: Serviço de Notificações e Comunicação (Responsável: Matheus) 🔔
+
+Entidade Principal: Notificacao
+Artefato Criado: Microsserviço de Notificações
+
+6. RF-007: Serviço de Controle de Lista de Espera (Responsável: Luan) ⏳
+
+Entidade Principal: ItemListaEspera
+Artefato Criado: Microsserviço de Lista de Espera
 
 ## Tecnologias Utilizadas
 
