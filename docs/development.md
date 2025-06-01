@@ -27,9 +27,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Responsável | Artefato Criado |
-|------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
+|ID    | Descrição do Requisito  | Responsavel | Artefato Criado |
+|------|-----------------------------------------|----| ----|
+|RF-001| A aplicação deve permitir gestão de usuários  | Vinicius Celio	 |  |
+|RF-002| A aplicação deve permitir gestão de eventos    | Vinicius Andrade	 | |
+|RF-003| A aplicação deve permitir inscrição de participantes   | Derick | |
+|RF-004| A aplicação deve permitir fazer checkin no evento     | Evaldo | |
+|RF-005| A aplicação deve fazer a notificações e comunicação    | Matheus | |
+|RF-007| A aplicação deve ter controle de lista de espera   | Luan | |
+
 
 
