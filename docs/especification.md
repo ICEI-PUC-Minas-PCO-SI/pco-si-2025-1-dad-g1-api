@@ -199,8 +199,8 @@ Atualizado em: 21/03/2024
 | Vinicius Celio        | Gestao de Usuario   | 24/03/2025     | 01/06/2025 | 📝    |    |
 | Vinicius Andrade      | Gestao de eventos   | 24/03/2025     | 01/06/2025 | ✔️    |   31/05/2025              |
 | Derick        | Inscricao de participante  | 24/03/2025     | 01/06/2025 | ✔️     |   01/06/2025              |
-| Evaldo        | Check-in  |  24/03/2025    | 01/06/2025 | 📝    |       |
-| Matheus        | Notificacoes  |  24/03/2025    | 01/06/2025 | 📝    |       |
+| Evaldo        | Check-in  |  24/03/2025    | 01/06/2025 | ✔️    | 01/06/2025      |
+| Matheus        | Notificacoes  |  24/03/2025    | 01/06/2025 | ✔️    |  01/06/2025     |
 | Luan        | Lista de espera  |  24/03/2025    | 01/06/2025 | 📝    |       |
 
 ### Sprint 3
