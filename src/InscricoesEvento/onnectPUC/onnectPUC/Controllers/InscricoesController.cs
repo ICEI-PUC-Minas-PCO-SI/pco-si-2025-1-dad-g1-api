@@ -43,7 +43,7 @@ namespace InscricaoService.Controllers
         }
 
         [HttpGet("usuario/{usuarioId}")]
-        public async Task<ActionResult<IEnumerable<Inscricao>>> ListarPorUsuario(Guid usuarioId)
+        public async Task<ActionResult<IEnumerable<Inscricao>>> ListarPorUsuario(int usuarioId)
         {
             return await _context.Inscricoes
                 .Where(i => i.UsuarioId == usuarioId)
@@ -51,7 +51,7 @@ namespace InscricaoService.Controllers
         }
 
         [HttpGet("evento/{eventoId}")]
-        public async Task<ActionResult<IEnumerable<Inscricao>>> ListarPorEvento(Guid eventoId)
+        public async Task<ActionResult<IEnumerable<Inscricao>>> ListarPorEvento(int eventoId)
         {
             return await _context.Inscricoes
                 .Where(i => i.EventoId == eventoId)
@@ -59,7 +59,7 @@ namespace InscricaoService.Controllers
         }
 
         [HttpGet("checar/{eventoId}/{usuarioId}")]
-        public async Task<ActionResult<bool>> VerificarInscricao(Guid eventoId, Guid usuarioId)
+        public async Task<ActionResult<bool>> VerificarInscricao(int eventoId, int usuarioId)
         {
             var inscrito = await _context.Inscricoes
                 .AnyAsync(i => i.EventoId == eventoId && i.UsuarioId == usuarioId && i.Ativa);
@@ -80,7 +80,7 @@ namespace InscricaoService.Controllers
         }
 
         [HttpGet("total/{eventoId}")]
-        public async Task<ActionResult<int>> TotalInscritos(Guid eventoId)
+        public async Task<ActionResult<int>> TotalInscritos(int eventoId)
         {
             int total = await _context.Inscricoes
                 .CountAsync(i => i.EventoId == eventoId && i.Ativa);
