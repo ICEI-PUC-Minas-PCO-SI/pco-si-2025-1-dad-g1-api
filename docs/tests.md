@@ -22,7 +22,7 @@ A estratégia de teste para o microserviço de Inscrição de Participantes cont
 
 | Qual microservico         | teste |
 |  :----:   | ----------- |
-| Microserviço de Inscrição de Participantes        |[Postman json](src/planodetesteincricaoevento.json) |
+| Microserviço de Inscrição de Participantes        |[Postman json](pco-si-2025-1-dad-g1-api/src/planodetesteincricaoevento.json) |
 
 # Plano de Testes - Microserviço de Inscrição de Participantes
 
