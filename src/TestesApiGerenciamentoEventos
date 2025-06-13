@@ -1,0 +1,446 @@
+{
+	"info": {
+		"_postman_id": "47407051-b1fb-458c-b3d8-e12db416c950",
+		"name": "API de Eventos",
+		"description": "Coleção de testes para API de eventos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45501230"
+	},
+	"item": [
+		{
+			"name": "GET - Listar eventos",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response is a JSON array\", function () {",
+							"    pm.response.to.be.withBody;",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.be.an(\"array\");",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7014/api/Events",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7014",
+					"path": [
+						"api",
+						"Events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Buscar evento por ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code is 200 or 404\", function () {",
+							"    pm.expect([200, 404]).to.include(pm.response.code);",
+							"});",
+							"if (pm.response.code === 200) {",
+							"    pm.test(\"Response contains expected fields\", function () {",
+							"        var jsonData = pm.response.json();",
+							"        pm.expect(jsonData).to.have.property(\"name\");",
+							"        pm.expect(jsonData).to.have.property(\"description\");",
+							"        pm.expect(jsonData).to.have.property(\"price\");",
+							"    });",
+							"}"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7014/api/Events/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7014",
+					"path": [
+						"api",
+						"Events",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Criar novo evento",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 201\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});",
+							"pm.test(\"Location header is present\", function () {",
+							"    pm.expect(pm.response.headers.get(\"Location\")).to.not.be.undefined;",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Feira Geek\",\n    \"description\": \"Evento de cosplay\",\n    \"price\": 25.0,\n    \"date\": \"2025-07-20\",\n    \"capacity\": 200,\n    \"ageRange\": 18,\n    \"time\": \"18:00:00\",\n    \"location\": \"Centro de Eventos\",\n    \"state\": \"MG\",\n    \"city\": \"Belo Horizonte\",\n    \"address\": \"Rua das Artes, 123\",\n    \"creatorId\": 1,\n    \"creatorName\": \"Peter Jordan\",\n    \"createdAt\": \"2025-06-13\"\n}"
+				},
+				"url": {
+					"raw": "https://localhost:7014/api/Events",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7014",
+					"path": [
+						"api",
+						"Events"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT - Atualizar evento",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 204\", function () {",
+							"    pm.response.to.have.status(204);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Rima demais\",\n    \"description\": \"Evento\",\n    \"price\": 25.0,\n    \"date\": \"2025-07-20\",\n    \"capacity\": 200,\n    \"ageRange\": 18,\n    \"time\": \"18:00:00\",\n    \"location\": \"Centro de Eventos\",\n    \"state\": \"SP\",\n    \"city\": \"São Paulo\",\n    \"address\": \"Rua das Artes, 123\",\n    \"creatorId\": 1,\n    \"creatorName\": \"Mané Silva\",\n    \"createdAt\": \"2025-06-13\"\n}"
+				},
+				"url": {
+					"raw": "https://localhost:7014/api/Events/36",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7014",
+					"path": [
+						"api",
+						"Events",
+						"36"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE - Remover evento",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 204 or 404\", function () {",
+							"    pm.expect([204, 404]).to.include(pm.response.code);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7014/api/Events/35",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7014",
+					"path": [
+						"api",
+						"Events",
+						"35"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Buscar por Estado",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response is a JSON array\", function () {",
+							"    pm.response.to.be.withBody;",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.be.an(\"array\");",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7014/api/Events/searchByState?query=mg",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7014",
+					"path": [
+						"api",
+						"Events",
+						"searchByState"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "mg"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Buscar por Cidade",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response is a JSON array\", function () {",
+							"    pm.response.to.be.withBody;",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.be.an(\"array\");",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7014/api/Events/searchByCity?query=São Paulo",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7014",
+					"path": [
+						"api",
+						"Events",
+						"searchByCity"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "São Paulo"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Buscar por Nome",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response is a JSON array\", function () {",
+							"    pm.response.to.be.withBody;",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.be.an(\"array\");",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7014/api/Events/searchByName?query=Feira",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7014",
+					"path": [
+						"api",
+						"Events",
+						"searchByName"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "Feira"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Buscar por Criador",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response is a JSON array\", function () {",
+							"    pm.response.to.be.withBody;",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.be.an(\"array\");",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7014/api/Events/searchByCreator?query=João Silva",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7014",
+					"path": [
+						"api",
+						"Events",
+						"searchByCreator"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "João Silva"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Buscar por Data",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response is a JSON array\", function () {",
+							"    pm.response.to.be.withBody;",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.be.an(\"array\");",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7014/api/Events/searchByDate?query=2025-07-20",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7014",
+					"path": [
+						"api",
+						"Events",
+						"searchByDate"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "2025-07-20"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
