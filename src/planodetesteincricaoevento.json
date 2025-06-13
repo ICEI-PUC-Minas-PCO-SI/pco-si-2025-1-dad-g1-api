@@ -1,0 +1,443 @@
+{
+	"info": {
+		"_postman_id": "9e9f85fa-2e28-4d4b-9232-ad9cd15fbcb7",
+		"name": "puconnect",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45490632",
+		"_collection_link": "https://derickrodrigues.postman.co/workspace/derick-rodrigues's-Workspace~256fe2e2-e061-4576-8338-1d3e89756ac4/collection/45490632-9e9f85fa-2e28-4d4b-9232-ad9cd15fbcb7?action=share&source=collection_link&creator=45490632"
+	},
+	"item": [
+		{
+			"name": "Teste de carga - Criar inscrição",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 201\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"eventoId\": 1, \"usuarioId\": \"{{randomInt}}\"}"
+				},
+				"url": {
+					"raw": "https://localhost:7128/api/inscricoes",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7128",
+					"path": [
+						"api",
+						"inscricoes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"eventoId\": 1, \"usuarioId\": 201 }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7128/api/Inscricoes",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7128",
+					"path": [
+						"api",
+						"Inscricoes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"eventoId\": 1, \"usuarioId\": 201 }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7128/api/Inscricoes",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7128",
+					"path": [
+						"api",
+						"Inscricoes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"eventoId\": 2, \"usuarioId\": 201 }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7128/api/Inscricoes",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7128",
+					"path": [
+						"api",
+						"Inscricoes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "evento",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7128/api/Inscricoes/evento/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7128",
+					"path": [
+						"api",
+						"Inscricoes",
+						"evento",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "evento Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7128/api/Inscricoes/evento/7779",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7128",
+					"path": [
+						"api",
+						"Inscricoes",
+						"evento",
+						"7779"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/Inscricoes/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7128/api/Inscricoes/usuario/110",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7128",
+					"path": [
+						"api",
+						"Inscricoes",
+						"usuario",
+						"110"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/Inscricoes/1 Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7128/api/Inscricoes/usuario/45787",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7128",
+					"path": [
+						"api",
+						"Inscricoes",
+						"usuario",
+						"45787"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7128/api/Inscricoes/checar/3/110",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7128",
+					"path": [
+						"api",
+						"Inscricoes",
+						"checar",
+						"3",
+						"110"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7128/api/Inscricoes/checar/3/110",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7128",
+					"path": [
+						"api",
+						"Inscricoes",
+						"checar",
+						"3",
+						"110"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7128/api/Inscricoes/checar/3/110",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7128",
+					"path": [
+						"api",
+						"Inscricoes",
+						"checar",
+						"3",
+						"110"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/Inscricoes/evento/27c8ffe5-29d1-4f7a-acbb-c0bc504a0e3c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7128/api/Inscricoes/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7128",
+					"path": [
+						"api",
+						"Inscricoes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7128/api/Inscricoes/total/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7128",
+					"path": [
+						"api",
+						"Inscricoes",
+						"total",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7128/api/Inscricoes/{id}",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7128",
+					"path": [
+						"api",
+						"Inscricoes",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7128/api/Inscricoes/{id}",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7128",
+					"path": [
+						"api",
+						"Inscricoes",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
