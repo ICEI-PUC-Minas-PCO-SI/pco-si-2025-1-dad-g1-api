@@ -101,3 +101,68 @@ A estratégia de teste para o microserviço de Inscrição de Participantes cont
 
 Este plano de testes cobre todos os requisitos funcionais e não funcionais do microserviço. A combinação de testes unitários, integração, carga e funcionais manuais garantirá confiabilidade, desempenho e consistência da API de Inscrição de Participantes.
 
+--- 
+
+# Plano de Testes - Microserviço de Cadastro de Eventos - src/TestesApiGerenciamentoEventos
+
+## Casos de Teste
+
+### 1. Cadastro (POST /api/Events)
+
+| ID | Cenário | Entrada | Saída Esperada |
+|----|---------|---------|------------------|
+| CT01 | Criar Evento válido | Dados do evento | 201 Created |
+
+### 2. Consulta de evento pelo id (GET /api/Events/{id})
+
+| ID | Cenário | Entrada | Saída Esperada |
+|----|---------|---------|------------------|
+| CT02 | Listar evento | id = 10 | Exibir evento específico |
+
+### 3. Consulta de eventos pelo estado (GET /api/Events/searchByState?query={string})
+
+| ID | Cenário | Entrada | Saída Esperada |
+|----|---------|---------|------------------|
+| CT03 | Listar eventos | query = SP | Lista com todos os eventos localizados no estado de São Paulo |
+
+### 4. Consulta de eventos pela cidade (GET /api/Events/searchByCity?query={string})
+
+| ID | Cenário | Entrada | Saída Esperada |
+|----|---------|---------|------------------|
+| CT04 | Listar eventos | query = Belo Horizonte | Lista com todos os eventos localizados em Belo horizonte |
+
+### 5. Consulta de eventos pelo nome (GET /api/Events/searchByName?query={string})
+
+| ID | Cenário | Entrada | Saída Esperada |
+|----|---------|---------|------------------|
+| CT05 | Listar eventos | query = Feira | Lista com todos os eventos que tenham parte do nome como feira |
+
+### 6. Consulta de eventos pelo criador (GET /api/Events/searchByCreator?query={string})
+
+| ID | Cenário | Entrada | Saída Esperada |
+|----|---------|---------|------------------|
+| CT06 | Listar eventos | query = Grupo Astronorte | Lista com todos os eventos que tenham o criador Grupo Astronorte |
+
+### 7. Consulta de eventos pela data (GET /api/Events/searchByDate?query={string})
+
+| ID | Cenário | Entrada | Saída Esperada |
+|----|---------|---------|------------------|
+| CT07 | Listar eventos | query = 2025-08-10 | Lista com todos os eventos que seão realizados em 10/08/2025 |
+
+### 8. Consulta de eventos (GET /api/Events)
+
+| ID | Cenário | Entrada | Saída Esperada |
+|----|---------|---------|------------------|
+| CT08 | Listar todos os eventos |  | Lista com todos os eventos |
+
+### 9. Editar Evento (PUT /api/Event/{id})
+
+| ID | Cenário | Entrada | Saída Esperada |
+|----|---------|---------|------------------|
+| CT09 | Alterar informações do evento | id=15 | Editar evento com id = 15|
+
+### 10. Excluir evento (DELETE /api/Events/{id})
+
+| ID | Cenário | Entrada | Saída Esperada |
+|----|---------|---------|------------------|
+| CT10 | Exclusão de evento | id = 20 | status code = 204 evento excluído |
