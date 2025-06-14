@@ -144,11 +144,8 @@ A implementação do sistema foi guiada pelos requisitos funcionais e não funci
 - **Banco:** SQL Server, com estrutura de dados gerada via migrations
 - **Deploy local:** `dotnet run` no Visual Studio 2022
 
----
 
 Esse conjunto cobre o núcleo funcional do microserviço de inscrição, mantendo o código modular, testável e compatível com o restante da arquitetura proposta.
-
-
 
 ---
 
