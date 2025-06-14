@@ -2,10 +2,10 @@
 
 ## Instalação do Sistema
 
-Descrição dos requisitos e processo de instalação do sistema.
+Deverá ter C#, sql server, python, e firebase instalado na maquina.
 
 ## Histórico de versões
 
-### [0.1.0] - DD/MM/AAAA
+### [0.1.0] - 15/06/2025
 #### Adicionado
-- Adicionado ...
+- As funcoes estabelizidas nos requisitos funcionais
