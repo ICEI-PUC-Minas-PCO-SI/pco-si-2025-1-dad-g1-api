@@ -60,7 +60,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |ID    | Descrição do Requisito  | Responsavel | Artefato Criado |
 |------|-----------------------------------------|----| ----|
 |RF-001| A aplicação deve permitir gestão de usuários  | Vinicius Celio	 |  |
-|RF-002| A aplicação deve permitir gestão de eventos    | Vinicius Andrade	 | |
+|RF-002| A aplicação deve permitir gestão de eventos    | Vinicius Andrade	 | EventApi |
 |RF-003| A aplicação deve permitir inscrição de participantes   | Derick | |
 |RF-004| A aplicação deve permitir fazer checkin no evento     | Evaldo | |
 |RF-005| A aplicação deve fazer a notificações e comunicação    | Matheus | |
