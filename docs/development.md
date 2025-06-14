@@ -66,6 +66,92 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-005| A aplicação deve fazer a notificações e comunicação    | Matheus | |
 |RF-007| A aplicação deve ter controle de lista de espera   | Luan | |
 
+---
+
+# Gerenciamento de eventos
+
+## Modelagem da Aplicação
+
+A modelagem da aplicação do microserviço de gerenciamento de eventos foi baseada em uma estrutura simples, porém eficiente, adequada à arquitetura de microsserviços. A modelagem de dados conta com a seguinte entidade principal:
+
+### Entidade: Evento
+
+| Campo         | Tipo     | Descrição                                                   |
+| ------------- | -------- | ----------------------------------------------------------- |
+| Id            | INT (PK) | Identificador único do evento                               |
+| Name          | string   | Nome do evento                                              |
+| Description   | string   | Descrição do evento                                         |
+| Price         | double   | Preço do ingresso do evento                                 |
+| Date          | DateOnly | Data de acontecimento do evento                             |
+| Capacity      | int      | Capacidade de público do evento                             |
+| AgeRange      | int      | Faixa etária evento                                         |
+| Time          | string   | Horário do evento                                           |
+| Location      | string   | Lugar do evento                                             |
+| State         | string   | Estado onde o evento ocorrerá                               |
+| City          | string   | Cidade onde o evento ocorrerá                               |
+| Address       | string   | Endereço onde o evento ocorrerá                             |
+| CreatorId     | int      | Id do produtor do evento                                    |
+| CreatorName   | string   | Nome do produtor do evento                                  |
+| CreatedAt     | DateTime | Data de registro do evento                                  |
+
+
+## Tecnologias Utilizadas
+
+1. **ASP.NET Web API**
+
+   - Utilizado para construir o microserviço com todos os endpoints RESTful, seguindo boas práticas de organização em camadas (controller, models, contexto).
+
+2. **SQL Server**
+
+   - Banco de dados relacional para persistência das inscrições com suporte a integridade referencial e escalabilidade.
+
+3. **Entity Framework Core**
+
+   - ORM para otimizar o mapeamento objeto-relacional entre C# e SQL Server.
+
+4. **Swagger**
+
+   - Geração automática de documentação da API e ferramenta para testes manuais dos endpoints.
+
+5. **Postman**
+
+   - Ferramenta para testes manuais e automatizados, incluindo simulação de carga.
+
+
+---
+
+## Programação de Funcionalidades
+
+A implementação do sistema foi guiada pelos requisitos funcionais e não funcionais definidos no escopo do projeto. O microserviço de Gerenciamento de eventos atende aos seguintes requisitos:
+
+### Requisitos Funcionais Atendidos
+
+| ID     | Descrição do Requisito                                                           | Responsável | Artefato Criado                          |
+| ------ | -------------------------------------------------------------------------------- | ----------- | ---------------------------------------- |
+| RF-002 | A aplicação deve permitir gestão de eventos                                      | Vinícius de Andrade      | `EventsController.cs`                |
+
+### Requisitos Não Funcionais Atendidos
+
+| ID      | Descrição do Requisito                                                            | Implementado? | Ferramenta/Justificativa                       |
+| ------- | --------------------------------------------------------------------------------- | ------------- | ---------------------------------------------- |
+| RNF-001 | A aplicação deve ser responsiva                                                   | (API REST)  | API stateless acessível via múltiplos clientes |
+| RNF-003 | Deve ser implementado um sistema de log para registrar erros e eventos relevantes | 🔜 Parcial    | Logging via console padrão do ASP.NET          |
+
+### Acesso e Verificação
+
+- **URL local (Swagger):** `https://localhost:7126/swagger`
+- **Testes funcionais:** realizados via Postman
+- **Banco:** SQL Server, com estrutura de dados gerada via migrations
+- **Deploy local:** `dotnet run` no Visual Studio 2022
+
+---
+
+Esse conjunto cobre o núcleo funcional do microserviço de inscrição, mantendo o código modular, testável e compatível com o restante da arquitetura proposta.
+
+
+
+---
+
 # Inscricao de evento
 
 ## Modelagem da Aplicação
