@@ -137,5 +137,90 @@ A implementação do sistema foi guiada pelos requisitos funcionais e não funci
 
 Esse conjunto cobre o núcleo funcional do microserviço de inscrição, mantendo o código modular, testável e compatível com o restante da arquitetura proposta.
 
+# Notificação de evento
+
+## Modelagem da Aplicação
+
+A modelagem da aplicação do microserviço de Notificação de eventos foi baseada em uma estrutura de tabela unica de notificação e uma tabela para acesso de terceiro para uso das rotas de notificação. De maneira que se entrega a um terceiro/cliente uma maneira de acesso a API e com isso ele tem permisão de uso a notificações. A modelagem de dados conta com a seguinte entidade principal:
+
+### Entidade: Notificação
+
+##### Tabela: Notificacao
+
+| Campo         | Tipo     | Descrição                                                   |
+| ------------- | -------- | ----------------------------------------------------------- |
+| codigoNotificacao | INT (PK) | Identificador unico da notificação |
+| codigoUsuario | INT | Identificador externo do usuário |
+| nome | STRING | Nome |
+| email | STRING | Email |
+| dataNotificacao | DATETIME  | Data de quando o ususuário sera notificado |
+| status | INT | Indicativo de controle da notificação 0 - Criado 1 - Notificado |
+| dataPreNotificacao | STRING NULL | Campo onde futuramente poderia ser usado para criar notificações que podem vir antes para o usuario |
+
+### Entidade: Acesso terceiro
+
+##### Tabela: OauthToken
+
+| Campo         | Tipo     | Descrição                                                   |
+| ------------- | -------- | ----------------------------------------------------------- |
+| id | INT (PK) | Identificador unico do acesso externo
+| client | STRING | Nome de identificação do terceiro/cliente
+| token | STRING | Token referencia para login do terceiro
+| updated_at | DATETIME | Data de atualização do acesso
+| expires_at | DATETIME | Data de expiração do acesso 
+| created_at | DATETIME | Data de criação do acesso
+
+## Tecnologias Utilizadas
+
+1. **ASP.NET Web API**
+
+   - Utilizado para construir o microserviço com todos os endpoints RESTful, seguindo boas práticas de organização em camadas (controller, models, contexto).
+
+2. **SQL Server**
+
+   - Banco de dados relacional para persistência das inscrições com suporte a integridade referencial e escalabilidade.
+
+3. **Entity Framework Core**
+
+   - ORM para facilitar o mapeamento objeto-relacional entre C# e SQL Server.
+
+4. **Hang Fire**
+
+   - Usado para a execução do job.
+
+5. **ByCript**
+
+   - Geração de criptografia e uso do JWT.
+
+4. **Swagger**
+
+   - Geração automática de documentação da API e ferramenta para testes manuais dos endpoints.
+
+5. **Postman**
+
+   - Ferramenta para testes manuais e automatizados, incluindo simulação de carga.
+
+---
+
+## Programação de Funcionalidades
+
+A implementação do sistema foi guiada pelos requisitos funcionais e não funcionais definidos no escopo do projeto. O microserviço de Inscrição de Participantes atende aos seguintes requisitos:
+
+### Requisitos Funcionais Atendidos
+
+| ID     | Descrição do Requisito                                                           | Responsável | Artefato Criado                          |
+| ------ | -------------------------------------------------------------------------------- | ----------- | ---------------------------------------- |
+| RF-005 | A aplicação deve fazer a notificações e comunicação                  | Matheus      | `NotificacaosController.cs`                |
+
+### Acesso e Verificação
+
+- **URL local (Swagger):** `https://localhost:5076/swagger`
+- **Testes funcionais:** realizados via Postman (arquivo de teste de carga incluído)
+- **Banco:** SQL Server, com estrutura de dados gerada via migrations
+- **Deploy local:** `dotnet run` no Visual Studio 2022
+
+---
+
+Esse conjunto cobre o núcleo funcional do microserviço de notificação, mantendo o código modular, testável e compatível com o restante da arquitetura proposta.
 
 
