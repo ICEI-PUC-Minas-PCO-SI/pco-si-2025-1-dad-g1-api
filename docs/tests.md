@@ -103,7 +103,7 @@ Este plano de testes cobre todos os requisitos funcionais e não funcionais do m
 
 --- 
 
-# Plano de Testes - Microserviço de Cadastro de Eventos - [Postman json](src/TestesApiGerenciamentoEventos)
+# Plano de Testes - Microserviço de Cadastro de Eventos - [Postman json]([src/TestesApiGerenciamentoEventos](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2025-1-dad-g1-api/blob/master/src/TestesApiGerenciamentoEventos))
 
 ## Casos de Teste
 
