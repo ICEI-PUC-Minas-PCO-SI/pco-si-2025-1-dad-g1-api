@@ -139,7 +139,7 @@ A implementação do sistema foi guiada pelos requisitos funcionais e não funci
 
 ### Acesso e Verificação
 
-- **URL local (Swagger):** `https://localhost:7126/swagger`
+- **URL local (Swagger):** `https://localhost:7014/swagger`
 - **Testes funcionais:** realizados via Postman
 - **Banco:** SQL Server, com estrutura de dados gerada via migrations
 - **Deploy local:** `dotnet run` no Visual Studio 2022
