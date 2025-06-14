@@ -36,6 +36,10 @@ A estratégia de teste para o microserviço de Inscrição de Participantes cont
 | CT02 | Criar inscrição duplicada | eventoId=1, usuarioId=201 | 409 Conflict |
 | CT03 | Criar inscrição em outro evento | eventoId=2, usuarioId=201 | 201 Created |
 
+<img title="Ct01" alt="Alt text" src="/docs/img/Inc/teste1.jpg">
+<img title="Ct02" alt="Alt text" src="/docs/img/Inc/teste2.jpg">
+<img title="Ct03" alt="Alt text" src="/docs/img/Inc/teste3.jpg">
+
 ### 2. Consulta por Evento (GET /api/inscricoes/evento/{eventoId})
 
 | ID | Cenário | Entrada | Saída Esperada |
@@ -43,12 +47,18 @@ A estratégia de teste para o microserviço de Inscrição de Participantes cont
 | CT04 | Evento com inscrições | eventoId=1 | Lista com 3 inscritos |
 | CT05 | Evento sem inscrições | eventoId=99 | Lista vazia |
 
+<img title="Ct04" alt="Alt text" src="/docs/img/Inc/teste4.jpg">
+<img title="Ct05" alt="Alt text" src="/docs/img/Inc/teste5.jpg">
+
 ### 3. Consulta por Usuário (GET /api/inscricoes/usuario/{usuarioId})
 
 | ID | Cenário | Entrada | Saída Esperada |
 |----|---------|---------|------------------|
 | CT06 | Usuário com inscrições | usuarioId=201 | Lista com 2 eventos |
 | CT07 | Usuário inexistente | usuarioId=999 | Lista vazia |
+
+<img title="Ct06" alt="Alt text" src="/docs/img/Inc/teste6.jpg">
+<img title="Ct07" alt="Alt text" src="/docs/img/Inc/teste7.jpg">
 
 ### 4. Verificação (GET /api/inscricoes/checar/{eventoId}/{usuarioId})
 
@@ -58,12 +68,18 @@ A estratégia de teste para o microserviço de Inscrição de Participantes cont
 | CT09 | Inscrição cancelada | eventoId=3, usuarioId=110 | false |
 | CT10 | Inscrição inexistente | eventoId=1, usuarioId=999 | false |
 
+<img title="Ct08" alt="Alt text" src="/docs/img/Inc/teste8.jpg">
+<img title="Ct09" alt="Alt text" src="/docs/img/Inc/teste9.jpg">
+
 ### 5. Cancelamento (DELETE /api/inscricoes/{id})
 
 | ID | Cenário | Entrada | Saída Esperada |
 |----|---------|---------|------------------|
 | CT11 | Cancelar inscrição ativa | id=1 | 204 No Content |
 | CT12 | Cancelar inscrição inexistente | id=999 | 404 Not Found |
+
+<img title="Ct011" alt="Alt text" src="/docs/img/Inc/teste10.jpg">
+
 
 ---
 
@@ -88,6 +104,8 @@ A estratégia de teste para o microserviço de Inscrição de Participantes cont
 - Throughput mínimo: 200 req/s
 
 ---
+
+<img title="Ct013" alt="Alt text" src="/docs/img/Inc/teste11.jpg">
 
 ## Testes Unitários com 
 
