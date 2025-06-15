@@ -6,28 +6,28 @@ A arquitetura em microsserviços permitirá que cada funcionalidade principal se
 
 ### Estrutura de Dados e Entidades por Microsserviço
 1. RF-001: Serviço de Gestão de Usuários (Responsável: __Vinícius Célio__) 
-Entidade Principal: Usuario
-Artefato Criado: Microsserviço de Usuários
+   * Entidade Principal: Usuario
+   * Artefato Criado: Microsserviço de Usuários
 
 2. RF-002: Serviço de Gestão de Eventos (Responsável: __Vinícius Andrade__) 
-Entidade Principal: Evento
-Artefato Criado: Microsserviço de Eventos
+   * Entidade Principal: Evento
+   * Artefato Criado: Microsserviço de Eventos
 
 3. RF-003: Serviço de Inscrição de Participantes (Responsável: __Derick__) 
-Entidade Principal: Inscricao
-Artefato Criado: Microsserviço de Inscrições
+   * Entidade Principal: Inscricao
+   * Artefato Criado: Microsserviço de Inscrições
 
 4. RF-004: Serviço de Check-in no Evento (Responsável: __Evaldo__) 
-Entidade Principal: Checkin
-Artefato Criado: Microsserviço de Check-in
+   * Entidade Principal: Checkin
+   * Artefato Criado: Microsserviço de Check-in
 
 5. RF-005: Serviço de Notificações e Comunicação (Responsável: __Matheus__) 
-Entidade Principal: Notificacao
-Artefato Criado: Microsserviço de Notificações
+   * Entidade Principal: Notificacao
+   * Artefato Criado: Microsserviço de Notificações
 
 6. RF-007: Serviço de Controle de Lista de Espera (Responsável: __Luan__) 
-Entidade Principal: Não se aplica
-Artefato Criado: Não foi criado
+   * Entidade Principal: Não se aplica
+   * Artefato Criado: Não foi criado
 
 ## Tecnologias Utilizadas
 O software foi construído sobre uma arquitetura de microsserviços, que permite o desenvolvimento de aplicações escaláveis e flexíveis, onde cada serviço funciona de forma independente. As tecnologias que sustentam essa arquitetura incluem:
