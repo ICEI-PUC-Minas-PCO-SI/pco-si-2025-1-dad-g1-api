@@ -5,45 +5,40 @@
 A arquitetura em microsserviços permitirá que cada funcionalidade principal seja desenvolvida e implantada de forma independente. Cada serviço terá seu próprio banco de dados, garantindo o baixo acoplamento.
 
 ### Estrutura de Dados e Entidades por Microsserviço
-1. RF-001: Serviço de Gestão de Usuários (Responsável: Vinicius Celio) 
-
+1. RF-001: Serviço de Gestão de Usuários (Responsável: __Vinícius Célio__) 
 Entidade Principal: Usuario
 Artefato Criado: Microsserviço de Usuários
 
-2. RF-002: Serviço de Gestão de Eventos (Responsável: Vinicius Andrade) 
-
+2. RF-002: Serviço de Gestão de Eventos (Responsável: __Vinícius Andrade__) 
 Entidade Principal: Evento
 Artefato Criado: Microsserviço de Eventos
 
-3. RF-003: Serviço de Inscrição de Participantes (Responsável: Derick) 
-
+3. RF-003: Serviço de Inscrição de Participantes (Responsável: __Derick__) 
 Entidade Principal: Inscricao
 Artefato Criado: Microsserviço de Inscrições
 
-4. RF-004: Serviço de Check-in no Evento (Responsável: Evaldo) 
-
+4. RF-004: Serviço de Check-in no Evento (Responsável: __Evaldo__) 
 Entidade Principal: Checkin
 Artefato Criado: Microsserviço de Check-in
 
-5. RF-005: Serviço de Notificações e Comunicação (Responsável: Matheus) 🔔
-
+5. RF-005: Serviço de Notificações e Comunicação (Responsável: __Matheus__) 
 Entidade Principal: Notificacao
 Artefato Criado: Microsserviço de Notificações
 
-6. RF-007: Serviço de Controle de Lista de Espera (Responsável: Luan) ⏳
-
-Entidade Principal: ItemListaEspera
-Artefato Criado: Microsserviço de Lista de Espera
+6. RF-007: Serviço de Controle de Lista de Espera (Responsável: __Luan__) 
+Entidade Principal: Não se aplica
+Artefato Criado: Não foi criado
 
 ## Tecnologias Utilizadas
+O software foi construído sobre uma arquitetura de microsserviços, que permite o desenvolvimento de aplicações escaláveis e flexíveis, onde cada serviço funciona de forma independente. As tecnologias que sustentam essa arquitetura incluem:
 
-<!-- Existem muitas tecnologias diferentes que podem ser usadas para desenvolver APIs Web. A tecnologia certa para o seu projeto dependerá dos seus objetivos, dos seus clientes e dos recursos que a API deve fornecer. -->
-
-<ol>
-    <li>ASP.NET Web API: parte que fara a construção da camada se serviços que seram oferecidos pela aplicação.</li>
-    <li>SQL Server: base para armazenar os dados.</li>
-</ol>
-
+* API ASP.NET CORE, 
+* Swagger
+* SQLServer
+* Postman
+* Ocelot
+* Python
+* Firebase
 
 ## Programação de Funcionalidades
 
