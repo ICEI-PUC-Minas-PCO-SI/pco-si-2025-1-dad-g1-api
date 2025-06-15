@@ -131,9 +131,7 @@ Este plano de testes cobre todos os requisitos funcionais e não funcionais do m
 |----|---------|---------|------------------|
 | CT01 | Criar Evento válido | Dados do evento | 201 Created |
 
-![image](https://github.com/user-attachments/assets/0c24b841-57ef-4b7d-9ce1-b19a53b34edc)
-
-
+![Captura de tela 2025-06-14 212338](https://github.com/user-attachments/assets/515f2330-9a0b-4bcd-b69e-66a3ed2feb9d)
 
 ### 2. Consulta de evento pelo id (GET /api/Events/{id})
 
@@ -141,11 +139,15 @@ Este plano de testes cobre todos os requisitos funcionais e não funcionais do m
 |----|---------|---------|------------------|
 | CT02 | Listar evento | id = 10 | Exibir evento específico |
 
+![Captura de tela 2025-06-14 211910](https://github.com/user-attachments/assets/08252363-94b1-42d6-9f13-174ebee5de0a)
+
 ### 3. Consulta de eventos pelo estado (GET /api/Events/searchByState?query={string})
 
 | ID | Cenário | Entrada | Saída Esperada |
 |----|---------|---------|------------------|
 | CT03 | Listar eventos | query = SP | Lista com todos os eventos localizados no estado de São Paulo |
+
+![Captura de tela 2025-06-14 211932](https://github.com/user-attachments/assets/13b93f69-8f76-4d79-8ee3-21e60b024462)
 
 ### 4. Consulta de eventos pela cidade (GET /api/Events/searchByCity?query={string})
 
@@ -153,11 +155,15 @@ Este plano de testes cobre todos os requisitos funcionais e não funcionais do m
 |----|---------|---------|------------------|
 | CT04 | Listar eventos | query = Belo Horizonte | Lista com todos os eventos localizados em Belo horizonte |
 
+![Captura de tela 2025-06-14 212011](https://github.com/user-attachments/assets/8627ce00-d177-4dab-939f-fab914fb881f)
+
 ### 5. Consulta de eventos pelo nome (GET /api/Events/searchByName?query={string})
 
 | ID | Cenário | Entrada | Saída Esperada |
 |----|---------|---------|------------------|
 | CT05 | Listar eventos | query = Feira | Lista com todos os eventos que tenham parte do nome como feira |
+
+![Captura de tela 2025-06-14 212030](https://github.com/user-attachments/assets/cf630f4c-f513-4e42-9ba3-a6828f578424)
 
 ### 6. Consulta de eventos pelo criador (GET /api/Events/searchByCreator?query={string})
 
@@ -165,11 +171,15 @@ Este plano de testes cobre todos os requisitos funcionais e não funcionais do m
 |----|---------|---------|------------------|
 | CT06 | Listar eventos | query = Grupo Astronorte | Lista com todos os eventos que tenham o criador Grupo Astronorte |
 
+![Captura de tela 2025-06-14 212248](https://github.com/user-attachments/assets/ff68f311-b004-4fb4-8575-4750bd721da4)
+
 ### 7. Consulta de eventos pela data (GET /api/Events/searchByDate?query={string})
 
 | ID | Cenário | Entrada | Saída Esperada |
 |----|---------|---------|------------------|
 | CT07 | Listar eventos | query = 2025-08-10 | Lista com todos os eventos que seão realizados em 10/08/2025 |
+
+![Captura de tela 2025-06-14 212301](https://github.com/user-attachments/assets/16298410-7b3f-4edf-871f-af2136f19252)
 
 ### 8. Consulta de eventos (GET /api/Events)
 
@@ -177,14 +187,20 @@ Este plano de testes cobre todos os requisitos funcionais e não funcionais do m
 |----|---------|---------|------------------|
 | CT08 | Listar todos os eventos |  | Lista com todos os eventos |
 
+![Captura de tela 2025-06-14 211840](https://github.com/user-attachments/assets/cd8ed264-9199-458a-b1d9-561797fbbc3c)
+
 ### 9. Editar Evento (PUT /api/Event/{id})
 
 | ID | Cenário | Entrada | Saída Esperada |
 |----|---------|---------|------------------|
 | CT09 | Alterar informações do evento | id=15 | Editar evento com id = 15|
 
+![Captura de tela 2025-06-14 212431](https://github.com/user-attachments/assets/533c8c62-3661-4469-a847-ff49500667d1)
+
 ### 10. Excluir evento (DELETE /api/Events/{id})
 
 | ID | Cenário | Entrada | Saída Esperada |
 |----|---------|---------|------------------|
 | CT10 | Exclusão de evento | id = 20 | status code = 204 evento excluído |
+
+![Captura de tela 2025-06-14 212519](https://github.com/user-attachments/assets/c830ab77-55e3-4273-aefe-89e59ddd31c0)
