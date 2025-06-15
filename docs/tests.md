@@ -130,7 +130,10 @@ Este plano de testes cobre todos os requisitos funcionais e não funcionais do m
 | ID | Cenário | Entrada | Saída Esperada |
 |----|---------|---------|------------------|
 | CT01 | Criar Evento válido | Dados do evento | 201 Created |
-![Captura de tela 2025-06-14 212338](https://github.com/user-attachments/assets/dcd39de5-4e8b-4800-9ad5-338eba3f102d)
+
+![image](https://github.com/user-attachments/assets/0c24b841-57ef-4b7d-9ce1-b19a53b34edc)
+
+
 
 ### 2. Consulta de evento pelo id (GET /api/Events/{id})
 
