@@ -204,3 +204,42 @@ Este plano de testes cobre todos os requisitos funcionais e não funcionais do m
 | CT10 | Exclusão de evento | id = 20 | status code = 204 evento excluído |
 
 ![Captura de tela 2025-06-14 212519](https://github.com/user-attachments/assets/c830ab77-55e3-4273-aefe-89e59ddd31c0)
+
+# Plano de Testes - Microserviço de Notificação de eventos
+
+## Casos de Testes
+
+Fluxo de execução completo
+
+<img title="Ct011" alt="Alt text" src="../src/PrintTesteNotificacao.png">
+
+### 1. Criar token externo (POST /api/OauthTokens)
+
+| ID | Cenário | Entrada | Saída Esperada |
+|----|---------|---------|------------------|
+| CT01 | Criar Token externo válido | Dados do terceiro/cliente | 201 Created |
+
+### 2. Fazer login com token externo (POST (bearer) /api/OauthTokens/login)
+
+| ID | Cenário | Entrada | Saída Esperada |
+|----|---------|---------|------------------|
+| CT02 | Login para acesso as rotas de notificações | Nome cliente/terceiro e token externo gerado | 200 Ok |
+
+### 3. Criar uma notificação (POST (bearer) /api/Notificacaos)
+
+| ID | Cenário | Entrada | Saída Esperada |
+|----|---------|---------|------------------|
+| CT03 | Criação de uma nova notificação | Usuário e data da notificação com seus dados cadastrais | 201 Created |
+
+### 4. Recupera todas/uma as notificações (GET (bearer) /api/Notificacaos/{id}(query /pages={value} /pageSize={value}))
+
+| ID | Cenário | Entrada | Saída Esperada |
+|----|---------|---------|------------------|
+| CT04 | Visualização das notificações geradas | Nenhuma/Id de notificação especifico | 200 Ok |
+
+### 5. Deleta o token do terceiro/cliente (DELETE /api/OauthTokens/{id})
+
+| ID | Cenário | Entrada | Saída Esperada |
+|----|---------|---------|------------------|
+| CT05 | Remoção do token do terceiro/cliente assim não o permitindo mais acesso ao sistema | Identificador para exclusão do terceiro/cliente | 204 No content |
+
