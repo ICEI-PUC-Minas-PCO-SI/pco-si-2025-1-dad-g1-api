@@ -130,7 +130,7 @@ A implementação do sistema foi guiada pelos requisitos funcionais e não funci
 | ID      | Descrição do Requisito                                                            | Implementado? | Ferramenta/Justificativa                       |
 | ------- | --------------------------------------------------------------------------------- | ------------- | ---------------------------------------------- |
 | RNF-001 | A aplicação deve ser responsiva                                                   | (API REST)  | API stateless acessível via múltiplos clientes |
-| RNF-003 | Deve ser implementado um sistema de log para registrar erros e eventos relevantes | 🔜 Parcial    | Logging via console padrão do ASP.NET          |
+| RNF-003 | Deve ser implementado um sistema de log para registrar erros e eventos relevantes |  Parcial    | Logging via console padrão do ASP.NET          |
 
 ### Acesso e Verificação
 
@@ -202,7 +202,7 @@ A implementação do sistema foi guiada pelos requisitos funcionais e não funci
 | ID      | Descrição do Requisito                                                            | Implementado? | Ferramenta/Justificativa                       |
 | ------- | --------------------------------------------------------------------------------- | ------------- | ---------------------------------------------- |
 | RNF-001 | A aplicação deve ser responsiva                                                   | (API REST)  | API stateless acessível via múltiplos clientes |
-| RNF-003 | Deve ser implementado um sistema de log para registrar erros e eventos relevantes | 🔜 Parcial    | Logging via console padrão do ASP.NET          |
+| RNF-003 | Deve ser implementado um sistema de log para registrar erros e eventos relevantes |  Parcial    | Logging via console padrão do ASP.NET          |
 
 ### Acesso e Verificação
 
