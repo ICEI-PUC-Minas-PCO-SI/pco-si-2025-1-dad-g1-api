@@ -54,7 +54,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito  | Responsavel | Artefato Criado |
 |------|-----------------------------------------|----| ----|
-|RF-001| A aplicação deve permitir gestão de usuários  | Vinicius Celio	 | Seriço de gestão de usuários |
+|RF-001| A aplicação deve permitir gestão de usuários  | Vinicius Celio	 | Serviço de gestão de usuários |
 |RF-002| A aplicação deve permitir gestão de eventos    | Vinícius de Andrade	 | EventApi |
 |RF-003| A aplicação deve permitir inscrição de participantes   | Derick | |
 |RF-004| A aplicação deve permitir fazer checkin no evento     | Evaldo | |
@@ -62,6 +62,35 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-007| A aplicação deve ter controle de lista de espera   | Luan | |
 
 ---
+# Gestão de Usuários
+
+## Modelagem da Aplicação
+A modelagem da aplicação do serviço de gestão de usuários é centralizada no modelo Usuario, que representa a entidade principal com dados como Nome, Email, e o hash da Senha. Para controle de acesso, cada usuário possui uma Role (Participante, Criador de Eventos, Admin), que é crucial para a autenticação via JWT. O ApplicationDbContext gerencia a persistência desses dados no SQL Server, utilizando o Entity Framework Core para mapeamento e migrações.
+
+### Entidade: Usuario
+| Campo         | Tipo     | Descrição                                                   |
+| ------------- | -------- | ----------------------------------------------------------- |
+| Id            | INT (PK) | Identificador único do Usuario                              |
+| Nome          | string   | Nome do usuário                                             |
+| Email         | string   | E-mail do usuário                                           |
+| SenhaHash     | string   | Hash da senha do usuário                                    |
+| PapelUsuario  | int      | Papel do usuário no sistema (Participante, Criador, Admin)  |
+| CriadoEm      | DateTime | Data da criação do usuário                                  |
+
+## Tecnologias Utilizadas
+
+1. **ASP.NET Core 8.0**
+   - Para a construção da API RESTful.
+2. **Entity Framework Core e SQL Server**
+   - Para acesso e gestão de dados.
+3. **JSON Web Tokens (JWT)**
+   - Garantir a segurança e autenticação.
+4. **BCrypt.Net-Next**
+   - Para hashing seguro de senhas.
+5. **AutoMapper**
+   - Para mapeamento de dados.
+6. **Swagger/OpenAPI**
+   - Para documentação da API.
 
 # Gerenciamento de eventos
 
